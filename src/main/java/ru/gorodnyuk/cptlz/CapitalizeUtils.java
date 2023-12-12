@@ -10,7 +10,7 @@ public class CapitalizeUtils {
             throw new IllegalArgumentException("List of fields for capitalize cannot be empty!");
         }
 
-        List<Field> selectedFieldsInObject = FieldExtraction.getStringFields(o, fieldsNames);
+        List<Field> selectedFieldsInObject = FieldExtractor.getStringFields(o, fieldsNames);
 
         if (selectedFieldsInObject.isEmpty()) {
             return;

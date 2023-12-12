@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-class FieldExtraction {
+class FieldExtractor {
 
     static List<Field> getStringFields(Object o, String[] fieldsNames) {
         Class<?> aClass = o.getClass();
